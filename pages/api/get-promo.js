@@ -22,6 +22,7 @@ export default async (req, res) => {
       message: textoCell.value
     }))
 
+    
   } catch (err) {
     res.end(JSON.stringify({
       showCoupon: false,
